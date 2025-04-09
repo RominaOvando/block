@@ -1,56 +1,52 @@
-.contenedor {
+.layout {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.caja-1 {
-    background-color: rgb(255, 0, 0);
+.encabezado {
+    background-color: pink;
     color: white;
     font-size: 40px;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
 }
 
-.cuerpo {
+.contenido {
     display: flex;
     text-align: center;
     flex: 1;
 }
 
-.caja-2 {
-    background-color: rgb(64, 0, 255);
-    text-align: center;
+.menu-lateral {
+    background-color: greenyellow;
     color: white;
     font-size: 30px;
     width: 250px;
-    padding: 25px;
+    padding: 20px;
 }
 
-.caja-3 {
-    background-color: rgb(255, 234, 0);
-    text-align: center;
+.principal {
+    background-color: hotpink;
     color: white;
     font-size: 30px;
     flex: 1;
-    padding: 25px;
+    padding: 20px;
 }
 
-.caja-4 {
-    background-color: rgb(157, 0, 255);
-    text-align: center;
+.barra-lateral {
+    background-color: violet;
     color: white;
     font-size: 30px;
     width: 250px;
-    padding: 25px;
+    padding: 20px;
 }
 
-.caja-5 {
-    background-color: rgb(75, 129, 216);
-    text-align: center;
+.pie-pagina {
+    background-color: darkcyan;
     color: white;
     font-size: 30px;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
